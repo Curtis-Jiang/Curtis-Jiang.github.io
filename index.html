@@ -3,37 +3,152 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curtis Jiang的个人网页</title>
+    <title>Can Jiang | AI Researcher</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="description" content="Can Jiang - AI Researcher focusing on advanced machine learning, foundational models, and AI for Science.">
 </head>
 <body>
+    <div class="noise-overlay"></div>
+    
     <header>
         <div class="container">
-            <h1>欢迎来到我的个人网页</h1>
+            <div class="logo">CJ</div>
+            <div class="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <nav>
                 <ul>
-                    <li><a href="#about">关于我</a></li>
-                    <li><a href="#projects">项目</a></li>
-                    <li><a href="#contact">联系方式</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#patents">Patents</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
+            <div class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </div>
         </div>
     </header>
 
     <section id="hero" class="hero">
         <div class="container">
-            <h2>你好，我是<span class="highlight">Curtis Jiang</span></h2>
-            <p>前端开发者 | 设计爱好者 | 终身学习者</p>
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="glitch" data-text="Can Jiang">Can Jiang</h1>
+                    <p class="subtitle">AI Researcher & Machine Learning Engineer</p>
+                    <p class="description">Exploring the frontiers of foundational models, structure prediction, and AI for Science.</p>
+                    <div class="hero-links">
+                        <a href="https://www.linkedin.com/in/curtis-jacob-211125318/" class="social-link" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://x.com/jiang_curtis" class="social-link" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/Curtis-Jiang" class="social-link" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="mailto:jc.thucs@gmail.com" class="social-link" target="_blank"><i class="fas fa-envelope"></i></a>
+                    </div>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn">Contact Me</a>
+                        <a href="CV_CanJiang.pdf" class="btn btn-outline" target="_blank">Download CV</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="terminal">
+                        <div class="terminal-header">
+                            <div class="terminal-buttons">
+                                <span class="terminal-button close"></span>
+                                <span class="terminal-button minimize"></span>
+                                <span class="terminal-button maximize"></span>
+                            </div>
+                            <div class="terminal-title">can@tsinghua:~</div>
+                        </div>
+                        <div class="terminal-body">
+                            <div class="line">$ <span class="command"></span></div>
+                            <div class="response"></div>
+                            <div class="line">$ <span class="command"></span></div>
+                            <div class="response"></div>
+                            <div class="line">$ <span class="command"></span></div>
+                            <div class="response"></div>
+                            <div class="line">$ <span class="command"></span></div>
+                            <div class="response"></div>
+                            <div class="line">$ <span class="cursor"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <section id="about" class="about">
         <div class="container">
-            <h2>关于我</h2>
-            <div class="about-content">
+            <h2 class="section-title">About Me</h2>
+            <div class="section-content">
                 <div class="about-text">
-                    <p>这里是关于您的简介。您可以介绍您的背景、技能、兴趣爱好等。</p>
-                    <p>您可以分享您的职业经历、教育背景以及您的专业技能。</p>
+                    <p>I am a passionate researcher focusing on advanced machine learning, particularly in foundational models and their applications in structure prediction and AI for Science (AI4S). My research interests span large language models (LLMs), generative AI, and their innovative applications in drug discovery and scientific computing.</p>
+                    <p>I am dedicated to developing novel approaches that combine deep learning architectures with domain-specific knowledge to address complex structural prediction challenges and advance the capabilities of AI systems in scientific applications.</p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h3>Education</h3>
+                                <p>Bachelor of Software Engineering, Tsinghua University (Graduating 2025)</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <div>
+                                <h3>Awards</h3>
+                                <p>Tsinghua Freshman Scholarship, Best Creativity Award (Tsinghua-Kuaishou), Finalist (Kuaishou 5th Hackathon)</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <div>
+                                <h3>Interests</h3>
+                                <p>Blockchain, Cryptocurrencies, Brain-Computer Interfaces, Football, Classical Music, Quantum Computing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="section-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">July 2024 - Present</div>
+                        <div class="timeline-content">
+                            <h3>ByteDance</h3>
+                            <p class="timeline-position">AI PM Intern</p>
+                            <ul class="timeline-details">
+                                <li>Developed AI-driven intelligent customer service bots, achieving a 30% increase in user query resolution rate across various e-commerce scenarios.</li>
+                                <li>Implemented prompt engineering and SFT (Supervised Fine-Tuning), enhancing bot response accuracy by 25% and reducing average response time by 15%.</li>
+                                <li>Conducted in-depth analysis of user interactions, applying statistical techniques to pinpoint areas for AI model improvement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">June 2023 - June 2024</div>
+                        <div class="timeline-content">
+                            <h3>Kwai</h3>
+                            <p class="timeline-position">AI Research Intern - Large Model Algorithms</p>
+                            <ul class="timeline-details">
+                                <li>Engineered a BERT-based NLP system to enhance Event Extraction (EE) capabilities, improving precision in event recognition by 10% across large-scale datasets.</li>
+                                <li>Developed prompt engineering frameworks tailored for AI virtual anchors, increasing response relevance and coherence in live interactions.</li>
+                                <li>Implemented fine-tuned BERT models for natural language understanding (NLU) tasks, reducing model training time by 5% while maintaining high accuracy across multiple languages.</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -41,22 +156,166 @@
 
     <section id="projects" class="projects">
         <div class="container">
-            <h2>我的项目</h2>
-            <div class="project-grid">
-                <div class="project-card">
-                    <h3>项目一</h3>
-                    <p>项目描述放在这里。简要介绍项目的目的、使用的技术以及您的贡献。</p>
-                    <a href="#" class="btn">查看项目</a>
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="section-content">
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Multilingual Event Graphs</h3>
+                            <div class="project-date">June 2023 - May 2024</div>
+                        </div>
+                        <p>Constructed multilingual event graphs leveraging KwaiYii large language models, covering Portuguese, Spanish, and Indonesian, advancing event recognition and extraction across multiple languages.</p>
+                        <div class="project-tech">
+                            <span>KwaiYii LLM</span>
+                            <span>Event Extraction</span>
+                            <span>NLP</span>
+                            <span>Prompt Engineering</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>LLM-based Video Generation</h3>
+                            <div class="project-date">June 2023 - May 2024</div>
+                        </div>
+                        <p>Developed an end-to-end short video generation system leveraging large language models for script generation, automatic editing, and music selection, reducing production time by 40%.</p>
+                        <div class="project-tech">
+                            <span>KwaiYii LLM</span>
+                            <span>Kolors</span>
+                            <span>Automatic Editing</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>NER and Event Theme Extraction</h3>
+                            <div class="project-date">Oct 2023 - June 2024</div>
+                        </div>
+                        <p>Developed an advanced event theme recognition pipeline that integrates GPT-4 with Named Entity Recognition (NER) to accurately identify core themes in multilingual content.</p>
+                        <div class="project-tech">
+                            <span>GPT-4</span>
+                            <span>NER</span>
+                            <span>NLP</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-header">
+                            <h3>Emotion Analysis App</h3>
+                            <div class="project-date">March 2024 - May 2024</div>
+                        </div>
+                        <p>Developed an application utilizing large language models for sentiment analysis to process and interpret WeChat messages, providing detailed insights into user emotions and social dynamics.</p>
+                        <div class="project-tech">
+                            <span>LLMs</span>
+                            <span>Sentiment Analysis</span>
+                            <span>Python</span>
+                            <a href="https://github.com/Curtis-Jiang/WeChatAnalysis" class="project-link" target="_blank"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
                 </div>
-                <div class="project-card">
-                    <h3>项目二</h3>
-                    <p>项目描述放在这里。简要介绍项目的目的、使用的技术以及您的贡献。</p>
-                    <a href="#" class="btn">查看项目</a>
+                <div class="view-more">
+                    <a href="#" class="btn btn-outline">View More Projects</a>
                 </div>
-                <div class="project-card">
-                    <h3>项目三</h3>
-                    <p>项目描述放在这里。简要介绍项目的目的、使用的技术以及您的贡献。</p>
-                    <a href="#" class="btn">查看项目</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Expertise</h2>
+            <div class="section-content">
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-brain"></i> Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">TensorFlow</div>
+                            <div class="skill-item">PyTorch</div>
+                            <div class="skill-item">Scikit-learn</div>
+                            <div class="skill-item">AlphaFold</div>
+                            <div class="skill-item">Large Language Models (LLMs)</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-comment-alt"></i> Natural Language Processing</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">BERT</div>
+                            <div class="skill-item">GPT</div>
+                            <div class="skill-item">Prompt Engineering</div>
+                            <div class="skill-item">Named Entity Recognition (NER)</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Programming</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">Python</div>
+                            <div class="skill-item">C++</div>
+                            <div class="skill-item">Java</div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3><i class="fas fa-chart-line"></i> Statistical Analysis</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">R</div>
+                            <div class="skill-item">MATLAB</div>
+                            <div class="skill-item">SciPy</div>
+                            <div class="skill-item">NumPy</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="patents" class="patents">
+        <div class="container">
+            <h2 class="section-title">Patents & Awards</h2>
+            <div class="section-content">
+                <div class="patents-grid">
+                    <div class="patent-card">
+                        <div class="patent-icon">
+                            <i class="fas fa-file-certificate"></i>
+                        </div>
+                        <div class="patent-content">
+                            <h3>Event Extraction Method</h3>
+                            <p class="patent-id">CN117933256A</p>
+                            <p class="patent-description">A novel method for extracting and analyzing event-related information from large-scale textual data using probabilistic token assessment frameworks.</p>
+                        </div>
+                    </div>
+                    <div class="patent-card">
+                        <div class="patent-icon">
+                            <i class="fas fa-file-certificate"></i>
+                        </div>
+                        <div class="patent-content">
+                            <h3>Automatic Selection of Background Music for Short Videos</h3>
+                            <p class="patent-id">Based on Large Models</p>
+                            <p class="patent-description">An innovative approach that uses large language models to dynamically match background music with video content based on sentiment analysis.</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <div class="award-icon">
+                            <i class="fas fa-trophy"></i>
+                        </div>
+                        <div class="award-content">
+                            <h3>Tsinghua Freshman Scholarship</h3>
+                            <p class="award-description">Awarded for outstanding academic performance and contributions to the university community.</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <div class="award-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="award-content">
+                            <h3>Best Creativity Award</h3>
+                            <p class="award-description">Tsinghua-Kuaishou Summer Practice (2023)</p>
+                        </div>
+                    </div>
+                    <div class="award-card">
+                        <div class="award-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="award-content">
+                            <h3>Finalist</h3>
+                            <p class="award-description">Kuaishou 5th Hackathon (2023)</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -64,19 +323,38 @@
 
     <section id="contact" class="contact">
         <div class="container">
-            <h2>联系我</h2>
-            <p>如果您有任何问题或合作意向，请随时联系我。</p>
-            <div class="contact-links">
-                <a href="mailto:your.email@example.com" class="contact-link">Email</a>
-                <a href="https://github.com/Curtis-Jiang" class="contact-link">GitHub</a>
-                <a href="https://linkedin.com/in/yourusername" class="contact-link">LinkedIn</a>
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-content">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <p>Feel free to reach out if you're interested in research collaboration, job opportunities, or just want to connect!</p>
+                    </div>
+                    <div class="contact-links">
+                        <a href="mailto:jc.thucs@gmail.com" class="contact-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>jc.thucs@gmail.com</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/curtis-jacob-211125318/" class="contact-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/Curtis-Jiang" class="contact-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://x.com/jiang_curtis" class="contact-link" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                            <span>Twitter</span>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
         <div class="container">
-            <p>&copy; 2023 Curtis Jiang. 保留所有权利。</p>
+            <p>&copy; <span class="year">2024</span> Can Jiang. All rights reserved.</p>
         </div>
     </footer>
 
